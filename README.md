@@ -18,80 +18,93 @@ The program provided a hands-on introduction to **Python**, **statistics**, **da
 ## 📚 Topics Covered
 
 ### 1) Python Basics
-Core Python syntax and data types, loops/conditionals, collections, reading CSV/Excel with Pandas, DataFrames & indexing.
+Core Python syntax and data types, loops & conditionals, lists, dictionaries, reading CSV/Excel files with Pandas, DataFrames & indexing, and coding challenges.
 
 **Key notebooks:**
 - `1 Python Basics.ipynb`
 - `2 Python for DataScience.ipynb`
-- `loop.ipynb`
-- `List.ipynb`
-- `Dictionaries.ipynb`
-- `Read csv and excel file in PANDAS.ipynb`
-- `DataFrame and Indexing.ipynb`
+- `3 loop.ipynb`
+- `4 List.ipynb`
+- `5 Dictionaries.ipynb`
+- `6 Read csv and excel file in PANDAS.ipynb`
+- `7 DataFrame and Indexing.ipynb`
 - `Python_Coding_Challenge.ipynb`
 - `Python_Coding_Challenge_Solution.ipynb`
 
 ---
 
-### 2) Statistics for Data Science
-Descriptive stats (mean/median/mode/variance/SD), correlation, chi-square, hypothesis testing (one-sample, two-sample, paired t-tests), histograms & frequency tables.
+### 2) Understanding the Statistics for Data Science
+Covers descriptive statistics (mean, median, mode, variance, SD), frequency & histogram plots, hypothesis testing (one-sample, two-sample, paired t-tests), correlation, and chi-square tests.
 
 **Key notebooks:**
-- `Mode.ipynb`
-- `2 sample T-test.ipynb`
-- `Paired T-test.ipynb`
-- `Chi square.ipynb`
-- `Correlation.ipynb`
-- `Mean.ipynb`
-- `Median.ipynb`
-- `Spread of Data.ipynb`
-- `Histogram.ipynb`
-- `Frequency table.ipynb`
-- `T-test( one sample ).ipynb`
+- `1 Mode.ipynb`
+- `2 Mean.ipynb`
+- `3 Median.ipynb`
+- `4 Spread of Data.ipynb`
+- `5 Variance.ipynb`
+- `6 Standard Deviation.ipynb`
+- `7 Frequency table.ipynb`
+- `8 Histogram.ipynb`
+- `9 T-test( one sample ).ipynb`
+- `10 2 sample T-test.ipynb`
+- `11 Paired T-test.ipynb`
+- `12 Chi square.ipynb`
+- `13 Correlation.ipynb`
 
 ---
 
-### 3) Predictive Modeling & ML
-Data ingestion, variable identification, univariate/bivariate analysis, missing values & outliers treatment, transformations, and ML algorithms:
-- **Linear Regression**
-- **Logistic Regression**
-- **Decision Tree**
-- **K-Means Clustering**
+### 3) Predictive Modeling & Machine Learning
+Explores data ingestion, variable identification, univariate/bivariate analysis, treating missing values & outliers, transforming variables, and implementing ML models like regression, decision trees, and clustering.
 
-**Key notebooks:**
-- `Reading the data into Python.ipynb`
-- `Variable Identification.ipynb`
-- `Univariate Analysis for Continuous Variables.ipynb`
-- `Univariate analysis for Categorical Variables.ipynb`
-- `Bivariate Analysis.ipynb`
-- `Treating missing values.ipynb`
-- `Outliers treatment.ipynb`
-- `Linear Regression Implemented BySelf.ipynb`
-- `Logistic Regression.ipynb`
+**Submodules & Key notebooks:**
+
+#### 🔹 Data Preparation & Exploration
+- `1 Reading the data into Python.ipynb`
+- `2 Variable Identification.ipynb`
+- `3 Univariate Analysis for Continuous Variables.ipynb`
+- `4 Univariate analysis for Categorical Variables.ipynb`
+- `5 Bivariate Analysis.ipynb`
+- `6 Treating missing values.ipynb`
+- `7 outliers treatment.ipynb`
+- `8 Transforming variables test.ipynb`
+
+#### 🔹 Linear Regression
+- `Implemented BySelf.ipynb`
+- `train.csv`
+
+#### 🔹 Logistic Regression
+- `logistic Regression.ipynb`
+- `How to decide the threshold.odt`
+
+#### 🔹 Decision Tree
 - `Decision Tree.ipynb`
+- `Decision tree simplified.odt`
+
+#### 🔹 K-Means Clustering
 - `K-Means.ipynb`
+- `Final+Test+Data+Set.csv`
 
 ---
 
 ## 🚀 Final Project — Predicting Term Deposit Subscription (Retail Bank)
 
-**Goal:** Build a binary classifier to predict whether a client will subscribe to a **term deposit** product using demographic and campaign data provided in `train.csv` and `test.csv`.
+**Goal:** Build a binary classification model to predict whether a customer will subscribe to a **term deposit** using demographic and campaign data (`train.csv`, `test.csv`).
 
-**Approach (high level):**
-1. Exploratory Data Analysis & cleaning  
-2. Encoding categorical variables; feature scaling where required  
-3. Baseline & tuned models (Logistic Regression, Random Forest)  
-4. Evaluation (Accuracy, Precision/Recall, Confusion Matrix)  
-5. Feature importance → business insights (e.g., contact duration, campaign frequency, previous outcome)
+**Approach (High Level):**
+1. Data loading and exploratory analysis  
+2. Data cleaning, encoding categorical variables, and scaling  
+3. Model training — Logistic Regression & Decision Tree  
+4. Model evaluation (Accuracy, Precision, Recall, Confusion Matrix)  
+5. Feature importance & business insights (e.g., contact duration, campaign frequency, previous outcomes)
 
-**Artifacts:**
+**Project Artifacts:**
 - `Benchmark solution.ipynb`
 - `Problem Statement.pdf`
 - `solution_checker.xlsx`
 - `submission.csv`
 - `train.csv`, `test.csv`
 
-👉 **Repo & project:** https://github.com/ShaswatManoj/Data-Science-Internshala
+👉 **GitHub Repository:** [ShaswatManoj/Data-Science-Internshala](https://github.com/MrShash/Data-Science-Internshala)
 
 ---
 
