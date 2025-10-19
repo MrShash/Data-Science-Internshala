@@ -1,4 +1,4 @@
-# 📊 Data Science Training — Internshala (6 Weeks)
+# 📊 Data Science Training - Internshala (6 Weeks)
 
 This repository contains all course notebooks, datasets, quizzes, and the **final capstone project** completed as part of the **6 Weeks Data Science Training by Internshala Trainings**.  
 The program provided a hands-on introduction to **Python**, **statistics**, **data preprocessing & visualization**, and **machine learning** using **Jupyter Notebook**.
