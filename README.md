@@ -95,8 +95,9 @@ Data ingestion, variable identification, univariate/bivariate analysis, missing 
 
 ---
 
-## 📂 Folder Structure
+## 📁 Folder Structure
 
+```text
 │   README.md
 │
 ├───1. Python Basics
